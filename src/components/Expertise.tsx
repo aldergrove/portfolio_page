@@ -1,7 +1,6 @@
 function Expertise() {
   const areas = [
     {
-      number: '01',
       title: 'Engineering',
       items: [
         'Project management',
@@ -11,7 +10,6 @@ function Expertise() {
       ],
     },
     {
-      number: '02',
       title: 'Tools & Automation',
       items: [
         'Excel & VBA',
@@ -21,7 +19,6 @@ function Expertise() {
       ],
     },
     {
-      number: '03',
       title: 'Creative',
       items: [
         'Music production',
@@ -39,8 +36,6 @@ function Expertise() {
       <div className="work-grid">
         {areas.map((area) => (
           <article className="work-area" key={area.title}>
-            <span className="work-number">{area.number}</span>
-
             <h2>{area.title}</h2>
 
             <ul>

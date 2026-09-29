@@ -7,6 +7,7 @@ function Header() {
         </a>
 
         <div className="nav-links">
+          <a href="#expertise">Expertise</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
