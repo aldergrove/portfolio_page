@@ -44,7 +44,7 @@ function Contact() {
           </button>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/matiaslepisto/"
             target="_blank"
             rel="noreferrer"
           >
@@ -53,7 +53,7 @@ function Contact() {
           </a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/aldergrove"
             target="_blank"
             rel="noreferrer"
           >
