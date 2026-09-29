@@ -1,10 +1,10 @@
-function SelectedWork() {
+function Expertise() {
   const areas = [
     {
       number: '01',
       title: 'Engineering',
       items: [
-        'Project work',
+        'Project management',
         'Product development',
         'Product data',
         'Quality',
@@ -15,7 +15,7 @@ function SelectedWork() {
       title: 'Tools & Automation',
       items: [
         'Excel & VBA',
-        'Data',
+        'Data & Testing',
         'ERP & PDM',
         'Process development',
       ],
@@ -25,16 +25,16 @@ function SelectedWork() {
       title: 'Creative',
       items: [
         'Music production',
-        'Composition',
-        'Orchestration',
-        'Creative technology',
+        'Improv theater',
+        'Coding',
+        'Film production',
       ],
     },
   ]
 
   return (
-    <section className="selected-work">
-      <p className="section-label">SELECTED WORK</p>
+    <section className="selected-work" id="expertise">
+      <p className="section-label">EXPERTISE</p>
 
       <div className="work-grid">
         {areas.map((area) => (
@@ -55,4 +55,4 @@ function SelectedWork() {
   )
 }
 
-export default SelectedWork
+export default Expertise

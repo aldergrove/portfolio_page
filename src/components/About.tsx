@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className="about-page">
+    <section className="about-page" id="about">
       <div className="about-hero">
         <p className="section-label">ABOUT</p>
 
@@ -40,44 +40,6 @@ function About() {
             and produce music. These different disciplines share the
             same foundation for me: curiosity, experimentation and
             understanding how things work.
-          </p>
-        </div>
-      </div>
-
-      <div className="about-skills">
-        <div>
-          <span>01</span>
-          <h2>Engineering</h2>
-          <p>
-            Product development, product structures, quality,
-            manufacturing and technical problem solving.
-          </p>
-        </div>
-
-        <div>
-          <span>02</span>
-          <h2>Systems & Data</h2>
-          <p>
-            ERP, PDM, Excel, VBA, data structures, automation
-            and process development.
-          </p>
-        </div>
-
-        <div>
-          <span>03</span>
-          <h2>Projects</h2>
-          <p>
-            Project coordination, international collaboration,
-            workshops and stakeholder communication.
-          </p>
-        </div>
-
-        <div>
-          <span>04</span>
-          <h2>Creative</h2>
-          <p>
-            Music production, composition, programming,
-            electronics and hands-on projects.
           </p>
         </div>
       </div>

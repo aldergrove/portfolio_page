@@ -2,8 +2,8 @@ import './App.css'
 
 import Header from './components/Header'
 import Hero from './components/Hero'
-import SelectedWork from './components/SelectedWork'
-import Intro from './components/Intro'
+import Expertise from './components/Expertise'
+import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -15,8 +15,8 @@ function App() {
 
       <main>
         <Hero />
-        <SelectedWork />
-        <Intro />
+        <Expertise />
+        <About />
         <Projects />
         <Contact />
       </main>
