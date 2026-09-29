@@ -30,7 +30,7 @@ function Expertise() {
   ]
 
   return (
-    <section className="selected-work" id="expertise">
+    <section className="expertise" id="expertise">
       <p className="section-label">EXPERTISE</p>
 
       <div className="work-grid">
