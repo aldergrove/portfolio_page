@@ -64,7 +64,7 @@ section {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 40px;
+  padding: 80px 40px 160px;
 }
 
 /* Hero */
@@ -343,8 +343,6 @@ footer {
 /* Projects */
 
 .projects-section {
-  padding-top: 140px;
-  padding-bottom: 160px;
   border-top: 1px solid #e5e5e5;
 }
 
@@ -416,8 +414,7 @@ footer {
 
 @media (max-width: 800px) {
   .projects-section {
-    padding-top: 90px;
-    padding-bottom: 100px;
+
   }
 
   .projects-heading {
@@ -442,8 +439,7 @@ footer {
 /* About page */
 
 .about-page {
-  padding-top: 120px;
-  padding-bottom: 160px;
+
 }
 
 .about-hero {
@@ -542,8 +538,7 @@ footer {
 
 @media (max-width: 800px) {
   .about-page {
-    padding-top: 80px;
-    padding-bottom: 100px;
+
   }
 
   .about-hero {
@@ -609,8 +604,7 @@ footer {
 /* Contact */
 
 .contact-page {
-  padding-top: 120px;
-  padding-bottom: 160px;
+
 }
 
 .contact-heading {
@@ -679,8 +673,7 @@ footer {
 
 @media (max-width: 800px) {
   .contact-page {
-    padding-top: 80px;
-    padding-bottom: 100px;
+
   }
 
   .contact-heading {
