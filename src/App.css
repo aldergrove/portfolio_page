@@ -657,17 +657,21 @@ footer {
   flex-direction: column;
 }
 
-.contact-links a {
+.contact-links a,
+.contact-links button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  width: 100%;
   padding: 24px 0;
-
-  color: #111111;
-  text-decoration: none;
-
+  border: 0;
   border-bottom: 1px solid #dddddd;
+  background: transparent;
+  color: #111111;
+  font: inherit;
+  text-decoration: none;
+  text-align: left;
+  cursor: pointer;
 }
 
 .contact-links span {

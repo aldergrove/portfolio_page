@@ -1,4 +1,18 @@
 function Contact() {
+  const sendEmail = () => {
+  const encoded: number[] = [138, 151, 147, 148, 83, 146, 134, 153, 142, 134, 152, 101, 140, 146, 134, 142, 145, 83, 136, 148, 146]
+
+  const address = encoded
+    .map((value) => String.fromCharCode(value - 37))
+    .join('')
+
+  const protocol = String.fromCharCode(
+    109, 97, 105, 108, 116, 111, 58
+  )
+  console.log(address)
+  window.location.assign(protocol + address)
+}
+
   return (
     <section className="contact-page" id="contact">
       <div className="contact-heading">
@@ -20,13 +34,17 @@ function Contact() {
         </div>
 
         <div className="contact-links">
-          <a href="mailto:your@email.com">
+          <button
+            type="button"
+            className="contact-email"
+            onClick={sendEmail}
+          >
             <span>Email</span>
-            <strong>your@email.com</strong>
-          </a>
+            <strong>Send me an email</strong>
+          </button>
 
           <a
-            href="hhttps://www.linkedin.com/in/matiaslepisto/"
+            href="https://www.linkedin.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -35,7 +53,7 @@ function Contact() {
           </a>
 
           <a
-            href="https://github.com/aldergrove"
+            href="https://github.com/"
             target="_blank"
             rel="noreferrer"
           >
