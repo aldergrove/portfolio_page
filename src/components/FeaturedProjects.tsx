@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { projects } from '../data/projects.ts'
 
 function FeaturedProjects() {
@@ -7,9 +6,7 @@ function FeaturedProjects() {
       <div className="featured-projects-header">
         <p className="section-label">SELECTED PROJECTS</p>
 
-        <Link to="/projects" className="text-link">
-          View all projects
-        </Link>
+        
       </div>
 
       <div className="featured-project-list">

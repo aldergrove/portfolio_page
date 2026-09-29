@@ -1,8 +1,6 @@
-import { Link } from 'react-router-dom'
-
 function Intro() {
   return (
-    <section className="intro">
+    <section className="intro" id="about">
       <div className="intro-heading">
         <p className="section-label">ABOUT</p>
 
@@ -31,9 +29,7 @@ function Intro() {
           problem-solving mindset across different disciplines.
         </p>
 
-        <Link to="/about" className="text-link">
-          More about me
-        </Link>
+        
       </div>
     </section>
   )

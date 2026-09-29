@@ -1,8 +1,6 @@
-import { Link } from 'react-router-dom'
-
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <p className="hero-label">
         ENGINEERING / TECHNOLOGY / CREATIVE
       </p>
@@ -18,7 +16,7 @@ function Hero() {
         technology and creative work.
       </p>
 
-      <Link to="/about">About me</Link>
+      <a href="#about">About me</a>
     </section>
   )
 }

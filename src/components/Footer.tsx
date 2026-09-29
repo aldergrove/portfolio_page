@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer-content">
-        <strong>XYZ</strong>
+        <strong>Matias Lepistö.</strong>
 
         <p>
           Engineer. Creator. Problem Solver.

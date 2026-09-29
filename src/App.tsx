@@ -1,30 +1,28 @@
-import { HashRouter, Routes, Route } from 'react-router-dom'
-
 import './App.css'
-import Home from './pages/Home'
+
 import Header from './components/Header'
-import About from './components/About'
+import Hero from './components/Hero'
+import SelectedWork from './components/SelectedWork'
+import Intro from './components/Intro'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
   return (
-    <HashRouter>      
-  <Header />
+    <>
+      <Header />
 
       <main>
-        <Routes>
-          <Route path="/" element={<Home />} />          
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          
-        </Routes>
+        <Hero />
+        <SelectedWork />
+        <Intro />
+        <Projects />
+        <Contact />
       </main>
 
       <Footer />
-    </HashRouter>
+    </>
   )
 }
 
