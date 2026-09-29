@@ -2,18 +2,15 @@ function Hero() {
   return (
     <section className="hero" id="home">
       <p className="hero-label">
-        ENGINEERING / TECHNOLOGY / CREATIVE
+        ENGINEER / GENERALIST / BUILDER
       </p>
 
       <h1>
-        Engineer. Creator.
-        <br />
-        Problem Solver.
+        I figure things out.
       </h1>
 
       <p className="hero-description">
-        I build practical solutions across engineering,
-        technology and creative work.
+        Then I build, improve or automate them.
       </p>
 
       <a href="#about">About me</a>
