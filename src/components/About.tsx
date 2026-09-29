@@ -14,32 +14,24 @@ function About() {
       <div className="about-content">
         <div className="about-intro">
           <p>
-            I am a multidisciplinary engineer with experience across
-            engineering, product data, quality, project coordination
-            and technical customer-facing work.
+            I am a multidisciplinary engineer with 18+ years of
+            experience across manufacturing, quality, product data,
+            projects and technical development.
           </p>
         </div>
 
         <div className="about-text">
           <p>
-            My work has ranged from product structures and ERP systems
-            to quotation tools, process development and international
-            engineering projects. I am particularly interested in
-            understanding complex systems and turning them into
-            practical solutions.
+            My work has taken me from the production floor to ERP and
+            PDM systems, global projects and automation tools. I enjoy
+            understanding how things work, finding what can be improved
+            and turning ideas into practical solutions.
           </p>
 
           <p>
-            I am equally comfortable working with data and software,
-            coordinating people and projects, or solving practical
-            technical problems.
-          </p>
-
-          <p>
-            Outside my professional work, I build, program, compose
-            and produce music. These different disciplines share the
-            same foundation for me: curiosity, experimentation and
-            understanding how things work.
+            That same curiosity extends beyond engineering. I program,
+            build things, produce music and explore new technologies -
+            often simply because I want to understand what is possible.
           </p>
         </div>
       </div>
